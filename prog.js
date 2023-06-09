@@ -114,7 +114,16 @@ deleteOne('stringa', true)
 /* ESERCIZIO 6
   Crea una funzione chiamata "isThisAnEmail" che riceve una stringa come parametro e ritorna true se la stringa è un valido indirizzo email.
 */
+let mail = veraMail
+function isThisAnEmail(email){
+  if(email === mail){
+    console.log("la mail esiste")
+  }
+  else{"non esiste"}
+  return isThisAnEmail
 
+}
+isThisAnEmail(veraMail)
 /* ESERCIZIO 7
   Scrivi una funzione chiamata "whatDayIsIt" che ritorna il giorno della settimana corrente.
 */
@@ -135,6 +144,7 @@ deleteOne('stringa', true)
 /* ESERCIZIO 9
   Scrivi una funzione chiamata "howManyDays" che riceve una data come parametro e ritorna il numero di giorni trascorsi da tale data.
 */
+
 
 /* ESERCIZIO 10
   Scrivi una funzione chiamata "isTodayMyBirthday" che deve ritornare true se oggi è il tuo compleanno, falso negli altri casi.
